@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>NoTrail Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <header>
+      <img src="notrail_logo.png" alt="NoTrail Logo">
+      <h1>NoTrail</h1>
+    </header>
+    <form action="login.php" method="post">
+      <label for="username">Username/Email:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Login</button>
+    </form>
+    <div class="decentralized-identity">
+      <!-- Include decentralized identity integration options here -->
+      
+    </div>
+    <footer>
+      <p>&copy; 2024 NoTrail. All rights reserved.</p>
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </footer>
+  </div>
+</body>
+<style>body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0021419e;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #0007354d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(62, 16, 16, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  header h1 {
+    margin: 10px 0;
+    color: #000000;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #000000;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #01073b;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #360000;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .decentralized-identity {
+    /* Add styles for decentralized identity integration section */
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  </style>
+</html>
